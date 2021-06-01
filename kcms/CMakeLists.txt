@@ -31,6 +31,10 @@ add_subdirectory(runners)
 add_subdirectory(spellchecking)
 add_subdirectory(qtquicksettings)
 
+add_subdirectory(pointer)
+add_subdirectory(trackpad)
+
+
 add_subdirectory(workspaceoptions)
 if (KF5Baloo_FOUND)
    add_subdirectory(baloo)

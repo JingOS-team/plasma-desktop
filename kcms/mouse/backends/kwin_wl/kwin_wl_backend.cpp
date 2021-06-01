@@ -90,6 +90,11 @@ void KWinWaylandBackend::findDevices()
                 continue;
             }
 
+            reply = deviceIface.property("keyboard");
+            if (reply.isValid() && reply.toBool()) {
+                continue;
+            }
+
             KWinWaylandDevice* dev = new KWinWaylandDevice(sn);
             if (!dev->init()) {
                 qCCritical(KCM_MOUSE) << "Error on creating device object" << sn;
