@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=trackpad
+Name[x-test]=xxtrackpadxx
+Comment=trackpad
+Comment[x-test]=xxtrackpadxx
+Type=Service
+X-KDE-ServiceTypes=KCModule
+X-KDE-Library=kcm_trackpad
+X-KDE-FormFactors=handset,tablet,mediacenter
+Categories=Qt;KDE;X-KDE-settings-system;
+X-KDE-Keywords=info,trackpad
+X-KDE-Keywords[x-test]=xxinfoxx,xxtrackpadxx
+X-KDE-ParentApp=kcontrol
+Exec=plasma-settings -m kcm_trackpad

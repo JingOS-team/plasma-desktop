@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=pointer
+Name[x-test]=xxpointerxx
+Comment=pointer
+Comment[x-test]=xxpointerxx
+Type=Service
+X-KDE-ServiceTypes=KCModule
+X-KDE-Library=kcm_pointer
+X-KDE-FormFactors=handset,tablet,mediacenter
+Categories=Qt;KDE;X-KDE-settings-system;
+X-KDE-Keywords=info,pointer
+X-KDE-Keywords[x-test]=xxinfoxx,xxpointerxx
+X-KDE-ParentApp=kcontrol
+Exec=plasma-settings -m kcm_pointer

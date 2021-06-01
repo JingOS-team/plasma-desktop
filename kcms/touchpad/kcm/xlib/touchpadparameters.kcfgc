@@ -1,0 +1,10 @@
+File=touchpad.kcfg
+ClassName=TouchpadParameters
+Mutators=true
+MemberVariables=private
+GlobalEnums=true
+UseEnumTypes=true
+Inherits=TouchpadParametersBase
+IncludeFiles=\"kcm/xlib/touchpadparametersbase.h\"
+SetUserTexts=true
+TranslationSystem=kde
